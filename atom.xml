@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://gouyulao.github.io</id>
     <title>抚晚风</title>
-    <updated>2021-05-13T15:25:50.211Z</updated>
+    <updated>2021-05-13T15:31:32.535Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://gouyulao.github.io"/>
     <link rel="self" href="https://gouyulao.github.io/atom.xml"/>
@@ -10,6 +10,47 @@
     <logo>https://gouyulao.github.io/images/avatar.png</logo>
     <icon>https://gouyulao.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 抚晚风</rights>
+    <entry>
+        <title type="html"><![CDATA[Java入门]]></title>
+        <id>https://gouyulao.github.io/post/java-ru-men/</id>
+        <link href="https://gouyulao.github.io/post/java-ru-men/">
+        </link>
+        <updated>2021-05-13T14:59:37.000Z</updated>
+        <content type="html"><![CDATA[<h3 id="1-快速入门">1、快速入门</h3>
+<h4 id="11-helloworld">1.1、hello，world</h4>
+<ul>
+<li>
+<p>需求说明<br>
+需要开发一个Java程序，可以输出hello，world</p>
+</li>
+<li>
+<p>开发步骤</p>
+</li>
+</ul>
+<ol>
+<li>
+<p>将Java代码编写到扩展名为HelloWorld.java文件中。<br>
+<img src="https://gouyulao.github.io/post-images/1620919262872.jpg" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>通过javac命令对该 java文件进行编译生成 .class文件。<br>
+<img src="https://gouyulao.github.io/post-images/1620919450945.jpg" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>通过java命令对生成的class文件进行运行。<br>
+<img src="https://gouyulao.github.io/post-images/1620919532121.jpg" alt="" loading="lazy"></p>
+</li>
+</ol>
+<ul>
+<li>运行原理示意图<br>
+<img src="https://gouyulao.github.io/post-images/1620918790945.jpg" alt="" loading="lazy"></li>
+</ul>
+<h3 id="2-转义字符">2、转义字符</h3>
+<h3 id="3-注释">3、注释</h3>
+<h3 id="4-代码规范">4、代码规范</h3>
+<h3 id="5-dos命令">5、DOS命令</h3>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[下载、安装JDK]]></title>
         <id>https://gouyulao.github.io/post/xia-zai-an-zhuang-jdk/</id>
@@ -19,13 +60,17 @@
         <content type="html"><![CDATA[<h3 id="1-win10下载安装jdk">1、win10下载安装JDK</h3>
 <h4 id="11-下载-安装jdk">1.1、下载、安装JDK</h4>
 <ul>
-<li>官方网址：https://www.oracle.com/cn/java/technologies/javase/javase-jdk8-downloads.html</li>
-<li>安装JDK步骤
+<li>
+<p>官方网址：https://www.oracle.com/cn/java/technologies/javase/javase-jdk8-downloads.html</p>
+</li>
+<li>
+<p>安装JDK步骤</p>
 <ol>
 <li>傻瓜式安装，下一步即可。</li>
 </ol>
 </li>
-<li>细节说明
+<li>
+<p>细节说明</p>
 <ol>
 <li>安装路径不要用中文或者特殊符号如空格等。</li>
 <li>当提示安装JRE时，可以选择不安装，也可以安装。</li>
@@ -36,14 +81,22 @@
 <ul>
 <li>配置环境变量步骤
 <ol>
-<li>此电脑--属性--高级系统设置--环境变量<br>
-<img src="https://gouyulao.github.io/post-images/1620917016605.jpg" alt="" loading="lazy"></li>
-<li>增加JAVA_HOME环境变量，执行JDK的安装目录，如 E:\Program Files\Java\jdk1.8.0_20<br>
-<img src="https://gouyulao.github.io/post-images/1620917349689.jpg" alt="" loading="lazy"></li>
-<li>编辑path环境变量，增加 %JAVA_HOME\bin%<br>
-<img src="https://gouyulao.github.io/post-images/1620917353441.jpg" alt="" loading="lazy"></li>
-<li>打开DOC命令行，任意目录下敲入<strong>java -version</strong>，如果可以在控制台下正确的执行，配置成功<br>
-<img src="https://gouyulao.github.io/post-images/1620916602156.jpg" alt="" loading="lazy"></li>
+<li>
+<p>此电脑--属性--高级系统设置--环境变量<br>
+<img src="https://gouyulao.github.io/post-images/1620917016605.jpg" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>增加JAVA_HOME环境变量，执行JDK的安装目录，如 E:\Program Files\Java\jdk1.8.0_20<br>
+<img src="https://gouyulao.github.io/post-images/1620917349689.jpg" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>编辑path环境变量，增加 %JAVA_HOME\bin%<br>
+<img src="https://gouyulao.github.io/post-images/1620917353441.jpg" alt="" loading="lazy"></p>
+</li>
+<li>
+<p>打开DOC命令行，任意目录下敲入<strong>java -version</strong>，如果可以在控制台下正确的执行，配置成功<br>
+<img src="https://gouyulao.github.io/post-images/1620916602156.jpg" alt="" loading="lazy"></p>
+</li>
 </ol>
 </li>
 </ul>
